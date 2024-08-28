@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.backgroundsetting{
+  background-color: #000000; 
+  background-size:cover; 
+  height:100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+} 
+.heading{
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 2px; 
+  text-align: center; 
+  font-family: 'Roboto';
+}  
+.photo{
+  object-fit: scale-down;  
+  height:300px;
+  
+} 
+.speedCount{
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: 'Roboto'; 
+  font-size: 30px;
+} 
+.instructions{
+  color: #ffffff; 
+  letter-spacing: 1px; 
+  font-size: 15px; 
+  font-family: 'Roboto';
+} 
+.accelerateButton{
+  cursor: pointer; 
+  background-color:  #0b69ff; 
+  color: #ffffff; 
+  margin: 5px; 
+  border: none; 
+  border-radius: 2px;
+} 
+.applyBrakes{
+  background-color: transparent; 
+  border: 1px solid #94a3b8; 
+  color: #ffffff; 
+  margin: 5px; 
+  border-radius: 2px;
 }
